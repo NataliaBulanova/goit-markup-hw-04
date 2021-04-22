@@ -209,7 +209,6 @@ footer .logo {
   align-items: center;
   padding: 25px 100px;
   margin-bottom: 30px;
-  border: 1px solid transparent;
   border-radius: 4px;
 }
 .advantages-icon {
@@ -244,10 +243,9 @@ footer .logo {
 } */
 .team-item {
   background-color: var(--white-text-color);
-  border: 1px solid var(--icon-color);
-  border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-text {
   padding-top: 30px;
@@ -301,6 +299,7 @@ footer .logo {
 }
 .client-link {
   border: 1px solid var(--icon-color);
+  border-radius: 4px;
 }
 .client-icon {
   fill: var(--icon-color);
@@ -322,8 +321,7 @@ footer .logo {
 }
 .clients-list .link {
   display: flex;
-  padding: 16px 32px;
-  border-radius: 4px;
+  padding: 16px 31px;
   justify-content: center;
   align-items: center;
 }
@@ -422,4 +420,22 @@ footer .logo {
   letter-spacing: 0.03em;
   color: var(--white-text-color);
   text-decoration-line: none;
+}
+.footer-social-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+  margin-bottom: 20px;
+}
+.footer-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+.footer-social-item .social-link {
+  background: var(--primary-text-color);
+}
+.footer-icon {
+  fill: var(--white-text-color);
 }
