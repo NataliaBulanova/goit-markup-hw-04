@@ -429,6 +429,10 @@ footer .logo {
 .footer .link {
   color: rgba(255, 255, 255, 0.6);
 }
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
+}
 .footer .logo {
   margin-bottom: 20px;
 }
