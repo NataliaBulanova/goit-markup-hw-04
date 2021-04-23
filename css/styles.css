@@ -142,8 +142,6 @@ footer .logo {
 }
 .address-icon {
   fill: var(--primary-text-color);
-}
-.address-icon {
   margin-right: 10px;
   fill: currentColor;
 }
@@ -225,8 +223,6 @@ footer .logo {
   border-radius: 4px;
 }
 .advantages-icon {
-  width: 70px;
-  height: 70px;
   fill: var(--tittle-text-color);
 }
 .advant-title {
@@ -304,10 +300,6 @@ footer .logo {
   padding: 12px;
   border-radius: 50%;
 }
-.social-icon {
-  width: 20px;
-  height: 20px;
-}
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent-color);
@@ -329,7 +321,7 @@ footer .logo {
 }
 .client-link:hover .client-icon,
 .client-link:focus .client-icon {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 .social-item {
   margin-top: 0px;
